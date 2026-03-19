@@ -4,7 +4,7 @@ A Claude skill for writing clear, shipworthy product specs — from scratch, rou
 
 ## What it does
 
-`write-specs` turns blank-page anxiety and rough ideas into product specs that actually get read. It works by guiding you through **structure discovery** — generating 3 concrete spec skeleton previews and letting you pick the shape that fits your mental model — rather than asking you to describe your format preferences in the abstract.
+`write-specs` turns blank-page anxiety and rough ideas into product specs that actually get read. It guides you through **structure discovery** — generating 3 concrete spec skeleton previews and letting you pick the shape that fits your mental model — rather than asking you to describe your format preferences in the abstract.
 
 Works with: Feature PRDs · Technical RFCs · Design decision docs · Architecture overviews · One-pager briefs · API/integration specs
 
@@ -12,7 +12,7 @@ Works with: Feature PRDs · Technical RFCs · Design decision docs · Architectu
 
 Most spec-writing tools start with a template. The problem is that the right template depends on your audience, your stage, and what kind of alignment you're after — and it's hard to know which you want until you see them side by side.
 
-`write-specs` borrows an idea from [Zara Zhang's Frontend Slides skill](https://github.com/zara-zhang): **show, don't tell**. Instead of asking "what format do you prefer?", it generates three short previews and lets you pick visually. People know what they like when they see it.
+Instead of asking "what format do you prefer?", `write-specs` generates three short skeleton previews and lets you pick. People know what they like when they see it.
 
 ## How to use it
 
@@ -41,7 +41,7 @@ write-specs/
     └── ship-checklist.md             # Pre-share readiness checklist
 ```
 
-The `SKILL.md` is the entry point — supporting files are loaded on-demand. This follows the "map, not manual" pattern: the main file stays lean and readable; depth is in the references.
+The `SKILL.md` is the entry point — supporting files are loaded on-demand. The main file stays lean; depth lives in the references.
 
 ## Spec types supported
 
@@ -66,8 +66,4 @@ The single most common mistake: writing a pre-build spec before the team has agr
 
 ## Output format
 
-Clean Markdown — works in Notion, Linear, GitHub, Confluence, anywhere. Designed to be readable as-is without a template engine.
-
-## Credits
-
-Built to mirror the spirit of [Zara Zhang's Frontend Slides skill](https://github.com/zara-zhang) — specifically the "show, don't tell" structure discovery approach and progressive disclosure architecture. Original application, no code shared.
+Clean Markdown — works in Notion, Linear, GitHub, Confluence, anywhere.
